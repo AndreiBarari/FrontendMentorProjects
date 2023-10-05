@@ -1,0 +1,181 @@
+@font-face {
+  font-family: hankenGrotesk;
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  font-family: hankenGrotesk;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 736px;
+  margin: auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 2rem;
+  box-shadow: 12px 12px 24px 6px #e7edfd;
+
+  grid-auto-flow: row;
+
+  & .left-gr,
+  .right-gr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  & .left-gr {
+    align-items: center;
+    padding: 40px 60px;
+    height: 516px;
+    border-radius: 2rem;
+    background-image: linear-gradient(#6743ff, #4633ed, #312ceb);
+
+    & h3 {
+      color: #c8beff;
+      font-size: 1.3rem;
+    }
+
+    & div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-image: linear-gradient(#4c23ca, #4633ed);
+
+      & h1 {
+        color: #fff;
+        font-size: 4rem;
+      }
+      & span {
+        color: #c8beff;
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+    }
+    & h2 {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    & p {
+      text-align: center;
+      color: #c8beff;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  }
+
+  & .right-gr {
+    padding: 30px 40px;
+
+    & h3 {
+      color: #3a4360;
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    & div {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      width: 100%;
+      padding: 20px 16px;
+      border-radius: 0.5rem;
+      color: #918d8e;
+      font-size: 1rem;
+      font-weight: 700;
+
+      & .user-score {
+        color: #313443;
+        margin-left: auto;
+      }
+      & .icon {
+        width: 20px;
+        height: 20px;
+        margin: 0 0.5rem;
+      }
+    }
+
+    & .reaction {
+      background-color: #fff6f5;
+
+      & .icon {
+        background-image: url("./assets/images/icon-reaction.svg");
+      }
+      & .title {
+        color: #ff4557;
+      }
+    }
+    & .memory {
+      background-color: #fffbf2;
+      & .icon {
+        background-image: url("./assets/images/icon-memory.svg");
+      }
+      & .title {
+        color: #ffcf5c;
+      }
+    }
+    & .verbal {
+      background-color: #f2fbfa;
+      & .icon {
+        background-image: url("./assets/images/icon-verbal.svg");
+      }
+      & .title {
+        color: #68c4ad;
+      }
+    }
+    & .visual {
+      background-color: #f3f3fd;
+      & .icon {
+        background-image: url("./assets/images/icon-visual.svg");
+      }
+      & .title {
+        color: #3747ce;
+      }
+    }
+    & a {
+      text-decoration: none;
+      width: 100%;
+      margin-top: 1rem;
+      background-image: linear-gradient(#303b59, #303b59);
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 700;
+      border-radius: 5rem;
+      padding: 20px 0;
+      text-align: center;
+
+      &:active {
+        background-image: linear-gradient(#6846ff, #322deb);
+      }
+    }
+  }
+}
+
+.attribution {
+  font-size: 12px;
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+@media (max-width: 736px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
