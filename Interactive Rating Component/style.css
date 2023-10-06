@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass:wght@400;700&family=Poppins:wght@400;500;600&family=Zen+Antique&display=swap");
+
+:root {
+  --primary: #fb7413;
+  --white: #ffffff;
+  --light-grey: #959eac;
+  --medium-grey: #7c8798;
+  --dark-blue: #252d37;
+  --darker-blue: #121417;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0 1.2rem;
+  font-family: "Overpass";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--darker-blue);
+  color: var(--white);
+}
+
+main {
+  margin: auto 0;
+  padding: 32px;
+  max-width: 412px;
+  height: 416px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 2rem;
+  background-image: linear-gradient(#232a32, var(--dark-blue));
+
+  & span {
+    height: 50px;
+    width: 50px;
+    background-color: #24323f;
+    border-radius: 50%;
+  }
+
+  & .icon {
+    background-image: url("./images/icon-star.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  & h2 {
+    font-size: 2rem;
+  }
+
+  & p {
+    color: var(--light-grey);
+    font-size: 1.1rem;
+  }
+
+  & .ratings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    & span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--light-grey);
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.1s ease-in;
+
+      &:hover {
+        background-color: var(--medium-grey);
+        color: var(--white);
+      }
+      &:active {
+        background-color: var(--primary);
+        color: var(--white);
+      }
+    }
+  }
+
+  & button {
+    padding: 1rem 0;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    border-color: transparent;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    &:active {
+      background-color: var(--white);
+      color: var(--primary);
+    }
+  }
+
+  & span {
+    background-color: #24323f;
+    border-radius: 50%;
+  }
+
+  & .post-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+    text-align: center;
+
+    & .rating-result {
+      margin: 12px 0;
+      font-size: 1.1rem;
+      background-color: #24323f;
+      color: var(--primary);
+      padding: 0.5rem 1.5rem;
+      border-radius: 2rem;
+    }
+    & h2,
+    p {
+      margin: 0;
+    }
+    & p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.attribution {
+  font-size: 12px;
+  & a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+  }
+}
