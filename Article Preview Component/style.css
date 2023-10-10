@@ -85,7 +85,6 @@ main {
         width: 34px;
         height: 34px;
         background-color: var(--light-gray-blue);
-        fill: red;
         position: relative;
         background-image: url("./images/icon-share.svg");
         border-radius: 50%;
@@ -99,7 +98,7 @@ main {
         position: absolute;
         top: 0;
         left: 50%;
-        transform: translate(28%, -120%);
+        transform: translate(24%, -120%);
         background-color: var(--dark-blue);
         padding: 0 1.5rem;
         border-radius: 0.5rem;
