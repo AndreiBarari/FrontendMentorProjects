@@ -19,7 +19,7 @@
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
@@ -50,8 +50,8 @@ main {
   & .left-gr {
     text-align: left;
     & h1 {
-      font-size: 2.2rem;
-      line-height: 36px;
+      font-size: 3rem;
+      line-height: 48px;
       margin-bottom: 1.5rem;
     }
   }
@@ -63,7 +63,7 @@ main {
     width: clamp(10%, 538px, 538px);
 
     & h3 {
-      font-size: 0.8rem;
+      font-size: 1rem;
       font-weight: 400;
       padding: 1rem 0;
       background-color: var(--accent-blue);
