@@ -112,7 +112,6 @@ main {
         border: 1px solid #ff0000;
       }
       & input {
-        margin-top: 1.5rem;
         width: clamp(268px, 460px, 100%);
         padding: 1rem 1.5rem;
         border-radius: 0.5rem;
