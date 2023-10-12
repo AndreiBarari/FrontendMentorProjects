@@ -88,6 +88,7 @@ form {
       margin-bottom: 1rem;
       border-radius: 2rem;
       color: var(--red-light);
+      background-color: transparent;
       padding: 0.2rem 1.5rem;
       height: 100%;
       width: 100%;
