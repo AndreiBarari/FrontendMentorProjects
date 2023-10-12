@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/AndreiBarari/FrontendMentorProjects/tree/main/Base%20Apparel%20Component))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]((https://github.com/AndreiBarari/FrontendMentorProjects/tree/main/Base%20Apparel%20Component))
+- Live Site URL: [Add live site URL here]((https://andreibarari.github.io/FrontendMentorProjects/Base%20Apparel%20Component/index.html)https://andreibarari.github.io/FrontendMentorProjects/Base%20Apparel%20Component/index.html)
 
 ### Built with
 
