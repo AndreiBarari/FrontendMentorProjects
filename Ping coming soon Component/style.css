@@ -161,8 +161,6 @@ footer {
       }
       & #error {
         bottom: 4rem;
-        /* left: 50%; */
-        /* transform: translateX(-20%); */
       }
     }
     & .preview {
