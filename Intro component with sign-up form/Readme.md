@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AndreiBarari/FrontendMentorProjects/tree/main/Intro%20component%20with%20sign-up%20form)
-- Live Site URL: [Add live site URL here](https://andreibarari.github.io/FrontendMentorProjects/Intro%20component%20with%20sign-up%20form/index.html)
+- Solution URL: [Solution](https://github.com/AndreiBarari/FrontendMentorProjects/tree/main/Intro%20component%20with%20sign-up%20form)
+- Live Site URL: [Live](https://andreibarari.github.io/FrontendMentorProjects/Intro%20component%20with%20sign-up%20form/index.html)
 
 ### Built with
 
