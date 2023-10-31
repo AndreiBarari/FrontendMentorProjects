@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/AndreiBarari/FrontendMentorProjects/tree/main/Newsletter%20Sign-up%20component#built-with)
+- Live Site URL: [Live](https://andreibarari.github.io/FrontendMentorProjects/Newsletter%20Sign-up%20component/index.html)
 
 ## My process
 
