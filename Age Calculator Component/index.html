@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="day-section">
+          <label for="day">Day</label>
+          <input type="number" name="day" placeholder="DD" id="day-input" />
+          <span class="error"></span>
+        </div>
+        <div class="month-section">
+          <label for="month">Month</label>
+          <input type="number" name="month" placeholder="MM" id="month-input" />
+          <span class="error"></span>
+        </div>
+        <div class="year-section">
+          <label for="year">Year</label>
+          <input type="number" name="year" placeholder="YYYY" id="year-input" />
+          <span class="error"></span>
+        </div>
+        <button type="submit" id="submit"></button>
+      </form>
+
+      <section>
+        <h1>
+          <span class="result" id="days">--</span>
+          days
+        </h1>
+        <h1>
+          <span class="result" id="months">--</span>
+          months
+        </h1>
+        <h1>
+          <span class="result" id="years">--</span>
+          years
+        </h1>
+      </section>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/AndreiBarari" target="_blank">Andrei</a>.
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
