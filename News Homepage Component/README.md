@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/AndreiBarari/FrontendMentorProjects/tree/main/News%20Homepage%20Component)
+- Live Site URL: [Live](https://andreibarari.github.io/FrontendMentorProjects/News%20Homepage%20Component/index.html)
 
 ### Built with
 
