@@ -1,0 +1,12 @@
+footer {
+  margin: 1rem 0;
+  & .attribution {
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+    & a {
+      text-decoration: none;
+      color: #3e52a3;
+    }
+  }
+}

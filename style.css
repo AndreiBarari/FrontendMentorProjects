@@ -1,0 +1,109 @@
+     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+     * {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+     }
+
+     body {
+         min-height: 100vh;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 2rem;
+         padding: 2rem;
+         background-color: #f7f7f7;
+         font-family: 'Roboto Slab', serif;
+     }
+
+     header {
+         & h1 {
+             font-size: 1.5rem;
+         }
+
+         & fieldset {
+             border-radius: 1rem;
+             padding: 0.5rem 1rem;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-evenly;
+             gap: 1rem;
+             font-weight: 800;
+
+             & legend {
+                 padding: 0 0.2rem;
+             }
+
+             & span {
+                 cursor: help;
+             }
+
+             & span:nth-child(2) {
+                 color: #6abecd;
+             }
+
+             & span:nth-child(3) {
+                 color: #aad742;
+             }
+         }
+     }
+
+
+
+     main {
+         border-radius: 0.5rem;
+         background-color: #fff;
+         padding: 1rem 2rem;
+         min-width: 360px;
+         max-width: 480px;
+         width: 80%;
+
+         & ul {
+             display: flex;
+             flex-direction: column;
+             gap: 0.5rem;
+
+             & .newbie {
+                 &::before {
+                     color: #6abecd;
+                 }
+             }
+
+             & .junior {
+                 &::before {
+                     color: #aad742;
+                 }
+             }
+
+             & li {
+                 position: relative;
+                 font-size: 1.2rem;
+                 font-weight: 600;
+                 letter-spacing: 1px;
+                 list-style: none;
+                 display: flex;
+                 align-items: center;
+
+                 &::before {
+                     content: "\2022";
+
+                     font-size: 2rem;
+                     display: inline-block;
+                     width: 1.5rem;
+                     margin-right: 0.5rem;
+                 }
+
+                 & a {
+                     text-decoration: none;
+                     color: #0a317a;
+                     transition: all 0.2s linear;
+
+                     &:hover {
+                         color: #F3B664;
+                         text-shadow: 2px 1px 2px #222;
+                     }
+                 }
+             }
+         }
+     }
