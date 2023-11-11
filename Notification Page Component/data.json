@@ -1,0 +1,58 @@
+[
+  {
+    "userName": "Mark Webber",
+    "avatar": "./assets/images/avatar-mark-webber.webp",
+    "action": "react",
+    "target": "My first tournament today!",
+    "status": "unread",
+    "date": "1m"
+  },
+  {
+    "userName": "Angela Gray",
+    "avatar": "./assets/images/avatar-angela-gray.webp",
+    "action": "follow",
+    "target": "",
+    "status": "unread",
+    "date": "5m"
+  },
+  {
+    "userName": "Jacob Thompson",
+    "avatar": "./assets/images/avatar-jacob-thompson.webp",
+    "action": "join",
+    "target": "Chess Club",
+    "status": "unread",
+    "date": "1 day"
+  },
+  {
+    "userName": "Rizky Hasanuddin",
+    "avatar": "./assets/images/avatar-rizky-hasanuddin.webp",
+    "action": "message",
+    "target": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "status": "read",
+    "date": "5 days"
+  },
+  {
+    "userName": "Kimberly Smith",
+    "avatar": "./assets/images/avatar-kimberly-smith.webp",
+    "action": "comment",
+    "target": "./assets/images/image-chess.webp",
+    "status": "read",
+    "date": "1 week"
+  },
+  {
+    "userName": "Nathan Peterson",
+    "avatar": "./assets/images/avatar-nathan-peterson.webp",
+    "action": "react",
+    "target": "5 end-game strategies to increase your win rate",
+    "status": "read",
+    "date": "2 weeks"
+  },
+  {
+    "userName": "Anna Kim",
+    "avatar": "./assets/images/avatar-anna-kim.webp",
+    "action": "left",
+    "target": "Chess Club",
+    "status": "read",
+    "date": "2 weeks"
+  }
+]
