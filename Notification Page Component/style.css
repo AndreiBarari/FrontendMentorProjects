@@ -33,29 +33,179 @@ body {
   background-color: var(--light-gray-blue);
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 p {
   font-size: 16px;
+  color: var(--dark-gray-blue);
 }
 
 main {
-  margin: auto 0;
-  padding: 1.5em;
+  max-width: 732px;
+  margin: 62px 0 auto 0;
+  padding: 2em;
+  gap: 1em;
   border-radius: 15px;
   background-color: var(--white);
+  color: var(--dark-gray-blue);
 
+  & a {
+    text-decoration: none;
+  }
+
+  & .head {
+    justify-content: space-between;
+    padding: 0.5em 0;
+
+    & div {
+      gap: 1em;
+      align-items: center;
+
+
+      & h3 {
+        color: var(--dark-blue);
+      }
+
+      & span {
+        padding: 0.1em 0.5em;
+        border-radius: 5px;
+        font-size: 1.1em;
+        font-weight: 800;
+        color: var(--white);
+        background-color: var(--blue);
+
+      }
+    }
+
+    & button {
+      background-color: transparent;
+      cursor: pointer;
+      color: var(--dark-gray-blue);
+      border-color: transparent;
+      font-size: 0.9em;
+      font-weight: 600;
+
+      &:active {
+        color: var(--blue);
+      }
+    }
+  }
+
+
+
+  & .notification-list {
+    gap: 0.5em;
+
+    & .unread {
+      background-color: var(--light-gray-blue);
+    }
+
+    & .notification {
+      gap: 1em;
+      padding: 1em;
+      border-radius: 10px;
+
+
+      & img {
+        max-width: 46px;
+        max-height: 46px;
+      }
+
+      & .pic {
+        margin-left: auto;
+      }
+
+
+      & section {
+        gap: 0.3em;
+
+        & .dot {
+          color: var(--red);
+          font-size: 1.2em;
+
+        }
+
+        & .user-name {
+          color: var(--dark-blue);
+          font-weight: 800;
+
+          &:active {
+            color: var(--blue);
+          }
+        }
+
+        & .target {
+          color: var(--dark-gray-blue);
+          font-weight: 800;
+
+          &:active {
+            color: var(--blue);
+          }
+
+
+        }
+
+        & .group {
+          color: var(--blue);
+        }
+
+        & .message {
+          margin-top: 0.5em;
+          border: 1px solid var(--grayish-blue-2);
+          border-radius: 5px;
+          padding: 0.5em 1em;
+          transition: background-color 0.1s linear;
+          cursor: pointer;
+
+          &:hover {
+            background-color: var(--grayish-blue-2);
+          }
+
+          & a {
+            font-weight: 500;
+
+            &:active {
+              color: var(--dark-gray-blue);
+            }
+          }
+        }
+
+        & .date {
+          color: var(--grayish-blue);
+          font-size: 0.9em;
+        }
+      }
+
+
+    }
+  }
 }
 
 footer {
-  margin: 1rem 0;
+  margin-top: 0.5rem;
 
   & .attribution {
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
 
     & a {
       text-decoration: none;
       color: #3e52a3;
     }
+  }
+}
+
+@media (max-width:440px) {
+  main {
+    padding: 0.2em;
   }
 }
