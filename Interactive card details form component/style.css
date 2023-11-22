@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+main {
+    margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Card design, left side of the page */
+main .card-design {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    min-height: 100vh;
+    background-image: url("./images/bg-main-desktop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .card-design .card-front {}
+
+/* Form, right side of the page */
+main .card-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+main .card-form form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer section */
+
+footer {
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    & .attribution {
+        text-align: center;
+        font-size: 16px;
+        text-align: center;
+
+        & a {
+            text-decoration: none;
+            color: #3e52a3;
+        }
+    }
+}
