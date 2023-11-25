@@ -17,8 +17,18 @@
 
   <main>
     <section class="card-design">
-      <div class="card-front"></div>
-      <div class="card-back"></div>
+      <div class="card-front">
+        <img src="./images/card-logo.svg" alt="card logo">
+        <div id="card-front-number">0000 0000 0000 0000</div>
+        <div class="card-front-data">
+          <div id="card-front-name">JANE APPLESEED</div>
+          <div id="card-front-date"><span id="card-date-month">00</span>/<span id="card-date-year">00</span>
+          </div>
+        </div>
+      </div>
+      <div class="card-back">
+        <span id="card-back-cvc">000</span>
+      </div>
     </section>
     <section class="card-form">
       <form action="">
@@ -32,16 +42,20 @@
         </div>
         <div class="card-data">
           <div class="card-date">
-            <label for="exp-month">Exp. Date (MM/YY)</label>
-            <input id="exp-month" min="1" max="12" type="text" placeholder="MM">
-            <input id="exp year" min="00" max="99" type="text" placeholder="YY">
+            <div class="row">
+              <label for="exp-month">Exp. Date (MM/YY)</label>
+            </div>
+            <div class="row">
+              <input id="exp-month" min="1" max="12" type="text" placeholder="MM">
+              <input id="exp-year" min="00" max="99" type="text" placeholder="YY">
+            </div>
           </div>
           <div class="card-cvc">
             <label for="cvc">Cvc</label>
             <input type="text" id="cvc" placeholder="e.g. 123">
           </div>
         </div>
-        <button type="submit">Confirm</button>
+        <button id="submit" type="submit">Confirm</button>
       </form>
       <footer>
         <div class="attribution">
