@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/AndreiBarari/FrontendMentorProjects/tree/main/Interactive%20card%20details%20form%20component)
+- Live Site URL: [Live](https://andreibarari.github.io/FrontendMentorProjects/Interactive%20card%20details%20form%20component/index.html)
 
 ### Built with
 

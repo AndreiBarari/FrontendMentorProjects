@@ -81,7 +81,7 @@ main .card-design .card-back {
     justify-content: end;
     padding: 3.5rem;
     position: absolute;
-    bottom: 184px;
+    bottom: 214px;
     left: 258px;
     background-image: url("./images/bg-card-back.png");
 }
@@ -92,39 +92,43 @@ main .card-design .card-back span {
 
 /* Form, right side of the page */
 main .card-form {
+    margin: 0 auto;
     position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex: 1;
+    gap: 2rem;
+    max-width: 424px;
 }
 
 main .card-form form {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    width: 375px;
+    gap: 1.5rem;
     padding: 0 1rem;
 }
 
 main .card-form form .card-name,
-.card-number,
-.card-data {
-    width: 340px;
+main .card-form form .card-number,
+main .card-form form .card-data,
+main .card-form form .card-date,
+main .card-form form .card-cvc {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     color: hsl(283, 9%, 15%);
 }
 
-main .card-form form div label {
+main .card-form form label {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px;
     font-weight: 600;
 }
 
-main .card-form form div input {
+main .card-form form input {
     padding: 0.5rem;
     border-radius: 7px;
     font-size: 18px;
@@ -133,7 +137,7 @@ main .card-form form div input {
     width: 100%;
 }
 
-main .card-form form div input:focus {
+main .card-form form input:focus {
     border: 1px solid transparent;
     border-radius: 7px;
     background-image: linear-gradient(white, white),
@@ -146,7 +150,6 @@ main .card-form form .card-data {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    /* gap: 1rem; */
 }
 
 main .card-form form .card-data .card-date {
@@ -165,7 +168,7 @@ main .card-form form .card-data .card-date .row input {
 }
 
 
-main .card-form form button {
+main .card-form button {
     padding: 1rem;
     border-radius: 7px;
     border-color: transparent;
@@ -176,35 +179,47 @@ main .card-form form button {
     transition: color 0.2s linear;
     cursor: pointer;
     margin-top: 24px;
-    width: 340px;
+    width: 100%;
 }
 
-main .card-form form button:hover {
+main .card-form button:hover {
     background-color: #8e8593;
     color: #210a2e;
 
 }
 
+/* Right side, success component */
+
+main .card-form h3 {
+    letter-spacing: 6px;
+}
+
+main .card-form p {
+    color: #8f8594;
+}
+
 /* Footer section */
 
-footer {
+main .card-form footer {
     padding: 0.5rem;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-
-    & .attribution {
-        text-align: center;
-        font-size: 16px;
-        text-align: center;
-
-        & a {
-            text-decoration: none;
-            color: #3e52a3;
-        }
-    }
 }
+
+main .card-form footer .attribution {
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+main .card-form footer .attribution a {
+    text-decoration: none;
+    color: #3e52a3;
+}
+
 
 @media only screen and (max-width:1300px) {
     main .card-design .card-front {
@@ -276,8 +291,16 @@ footer {
     }
 
     main .card-form form {
-        margin-bottom: 5rem;
         gap: 0.8rem;
+    }
+
+    main .card-form {
+        max-width: 360px;
+        width: 100%;
+    }
+
+    main .card-form footer {
+        bottom: -35%;
     }
 
 }
