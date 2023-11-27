@@ -167,7 +167,26 @@ main .card-form form .card-data .card-date .row input {
     width: 72px;
 }
 
+/* Error style */
 
+main .card-form form div {
+    position: relative;
+}
+
+main .card-form form .error {
+    position: absolute;
+    bottom: -20px;
+    color: #ff5282;
+    font-size: 14px;
+
+}
+
+main .card-form form .hidden {
+    visibility: hidden;
+}
+
+
+/* Form button */
 main .card-form button {
     padding: 1rem;
     border-radius: 7px;
@@ -178,7 +197,7 @@ main .card-form button {
     letter-spacing: 1px;
     transition: color 0.2s linear;
     cursor: pointer;
-    margin-top: 24px;
+    margin-top: 12px;
     width: 100%;
 }
 
